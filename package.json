@@ -1,0 +1,16 @@
+{
+  "name": "crypto-dash",
+  "version": "1.0.0",
+  "description": "A webapp to track top 10 coins in real time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nemanja Blagojevic",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1"
+  }
+}

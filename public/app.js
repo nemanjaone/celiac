@@ -1,6 +1,8 @@
 const btc = document.querySelector('#btc');
+const btn = document.querySelector('#update');
 
-const data = async () => {
+btn.addEventListener('click', async () => {
+    console.log('Update Prices Request Received.');
     const got = await axios.get(`https://api.coincap.io/v2/assets`, { params: { limit: 10 } });
     res = await got.data.data;
 
@@ -64,6 +66,6 @@ const data = async () => {
     dogePrice = parseFloat(dogePrice);
     dogePrice = dogePrice.toFixed(2);
     doge.innerHTML = dogePrice;
-};
 
-data();
+    console.log('Prices updated.')
+})

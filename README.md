@@ -1,4 +1,8 @@
-## This is a crypto app to track top 10 coins price. ##
-It uses the coincap API, bootstrap css, and expressjs for server.
+## This is an app for Celciacs and Gluten Sensitive people alike! ##
 
-![image](https://user-images.githubusercontent.com/53147294/171077357-6dd54cb4-2817-4c68-a546-bfdad720432e.png)
+Insert Description Here
+Spoonacular API
+Node.js => Express.js
+CSS Bootstrap
+
+
